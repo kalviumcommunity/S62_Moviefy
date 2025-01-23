@@ -193,3 +193,17 @@ I've successfully set up the frontend using Vite and React.
    - A title for the project.
    - A brief description of the project.
    - Relevant content to engage users.
+
+## Milestone 10
+
+### Project Update 9
+
+I've successfully deployed my site
+
+### Steps Taken 9
+
+1. Logged on to netlify and created a new site
+2. Connected my site to github
+3. Deployed the site to netlify
+
+To see my site [Click here](https://movieefy.netlify.app/)
