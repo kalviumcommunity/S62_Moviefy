@@ -186,13 +186,13 @@ I've successfully set up the frontend using Vite and React.
 
 ### Steps Taken 8
 
-1. Created the `Frontend` folder to maintain the frontend files separately.
-2. Set up a new React app using Vite in the `Frontend` folder.
-3. Installed the necessary dependencies for the React app.
-4. Updated the `App.jsx` file to create a landing page for the ASAP project, which includes:
-   - A title for the project.
-   - A brief description of the project.
-   - Relevant content to engage users.
+- Created the `Frontend` folder to maintain the frontend files separately.
+- Set up a new React app using Vite in the `Frontend` folder.
+- Installed the necessary dependencies for the React app.
+- Updated the `App.jsx` file to create a landing page for the ASAP project, which includes:
+  - A title for the project.
+  - A brief description of the project.
+  - Relevant content to engage users.
 
 ## Milestone 10
 
@@ -202,8 +202,19 @@ I've successfully deployed my site
 
 ### Steps Taken 9
 
-1. Logged on to netlify and created a new site
-2. Connected my site to github
-3. Deployed the site to netlify
+- Logged on to netlify and created a new site
+- Connected my site to github
+- Deployed the site to netlify
 
 To see my site [Click here](https://movieefy.netlify.app/)
+
+## Milestone 11
+
+### Project Update 10
+
+I've added a home page and some dummy data to it
+
+### Steps Taken 10
+
+- Created a new component for the home page
+- Added dummy data to the home page
