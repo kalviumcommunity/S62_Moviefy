@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const userModel = require("../models/user.models.js");
+const { getDB } = require("../DB/mongo.client.js");
 
 router.get("/user", async (req, res) => {
   const data = await userModel.find();
@@ -52,6 +53,16 @@ router.delete("/user/:id", async (req, res) => {
   const deleteData = await userModel.find();
 
   res.status(200).send({ message: "done", data: deleteData, success: true });
+});
+
+router.get("/movie", async (req, res) => {
+  try {
+    const db = getDB();
+    const userData = await db.find().toArray();
+    res.status(200).send({ message: "done", data: userData, success: true });
+  } catch (error) {
+    return res.status(500).send({ message: "Internal server error" });
+  }
 });
 
 module.exports = router;
