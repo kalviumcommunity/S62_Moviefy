@@ -218,3 +218,15 @@ I've added a home page and some dummy data to it
 
 - Created a new component for the home page
 - Added dummy data to the home page
+
+## Milestone 12
+
+### Project Update 11
+
+- Render the entites from your DB
+
+### Steps Taken 11
+
+- Added a route to get the data from the DB
+- Added a function to get the data from the DB
+- Added a function to render the data on the home page
